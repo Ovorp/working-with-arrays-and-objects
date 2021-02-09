@@ -42,8 +42,7 @@
 function showValues( obj ) {
   let str ='';
   for (let key in obj) {
-    str = `${str}${obj[key]}`
-  
+    str += obj[key]
   }
   return str
 }
